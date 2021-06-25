@@ -1,0 +1,113 @@
+<!doctype html>
+<HTML>
+<HEAD>
+    <TITLE>SMARTWATCH</TITLE>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <STYLE>
+
+        .con{
+            margin-top:6%;
+        }
+        #screen{
+            color:white;
+             position:absolute;
+            top:46%;
+            left:44%;
+            translate:transform(-50%,40%)
+        }
+        .img{
+            margin-left:29%;
+            margin-top:10%;
+            width:320px;
+            height:350px;
+        }
+        .c h1,h5{
+            margin-top:5%;
+            margin-left:3%;
+            color:white;
+        }
+        .btn{
+            margin-left:3%;
+            width:60px;
+            height:50px;
+            background-color:white;
+            border : solid;
+            border-width:2px;
+            border-color:white;
+        }
+        .btn1{
+            margin-left:3%;
+            width:100px;
+            height:50px;
+            background-color:white;
+            border : none;
+            border-radius:4px;
+        }
+        #buy{
+            padding:1px 20px 1px 20px;
+            width:300px;
+            height:40px;
+            border : none;
+            border-radius:10px;
+            color:white;
+            background-color:blue;
+            float:right;
+            margin-top:20px;
+            background-image: linear-gradient( #ffcc33, #ffc266 ,#ffcc33);
+
+        }
+    #buy:hover{
+        color:#e68a00;
+        border:solid;
+        background:
+    }
+    #heading{
+        text-align:center;
+        padding:3px;
+        color:white
+    }
+    </STYLE>
+</HEAD>
+<BODY style="margin:0px;background-color:black;">
+ <DIV class="container-fluid" style="background-color: #ffad33;height:7vh">
+    <div class="row">
+            <div class="col-12 col-sm-12 col-lg-12" >
+               <h3 id = "heading">Watch Seller</h3>
+            </div>
+    </div>
+ </DIV>
+
+<div class="con container-fluid">
+    <div class="row">
+        <DIV class="col-12 col-md-7 col-sm-12 col-lg-5">
+            <img src = "1.jpg" class="img" id = "img">
+            <h5 id = "screen"></h5><br>
+       
+        </DIV>
+        <DIV class="c col-12 col-md-5 col-sm-12 col-lg-7">
+            <h1>Smartwatch</h1>
+            <h5>Colors Available</h5>
+            <button id="red" class="btn"></button>
+            <button id="black" class="btn"></button>
+            <button id="pur" class="btn"></button>
+            <button id = "pink" class="btn"></button><br>
+            <h5>Functionality</h5>
+            <button id="Date" class ="btn1">Date</button>
+            <button id="Time" class ="btn1">Time</button>
+            <button id="heart" class ="btn1">Pulse Rate</button>
+        </DIV>
+       
+    <div>
+</div>
+
+ <DIV class="container">
+    <div class="row">
+            <div class="col-12 col-sm-12 col-lg-12">
+                <BUTTON id="buy"><h4>Buy This Product</h4></BUTTON>
+            </div>
+    </div>
+ </DIV>
+<script src = "index.js"></script>
+</BODY>
+</HTML>
