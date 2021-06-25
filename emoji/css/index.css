@@ -1,0 +1,103 @@
+body{
+    background-color: coral;
+}
+.container-fluid ,.container{
+    margin-top:120px;
+    font-size: 90px;
+    color: #fff748;
+    text-shadow: 2px 5px #2b3252;
+}
+.container h1{
+    font-weight: 800;
+    font-family: 'Caveat Brush', cursive;
+}
+.skin {
+    width: 100px;
+    height: 100px;
+    margin-top:44px;
+    margin-left:60px;
+    cursor:pointer;
+}
+.eyes{
+    width: 70px;
+    height: 70px;
+    margin-top:44px;
+    margin-left:100px;
+    cursor:pointer;
+}
+
+
+h1{
+    text-align:center;
+}
+.slider-inner{
+    width:90%;
+    height:300px;
+    position:relative;
+    overflow:hidden;
+    float:left;
+    padding:3px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius:4px;
+    background:#fff748;
+}
+
+.slider-inner div{
+    display:none;
+    width:90%;
+    hieght:250px;
+   
+}
+.slider-inner div.active{
+    display:inline-block;
+}
+.prev, .next{
+    float:left;
+    margin-top:100px;
+    cursor:pointer;
+}
+.prev{
+    position:relative;
+    margin-right:-45px;
+    z-index:100;
+}
+.next{
+    position:relative;
+    margin-left:-45px;
+    z-index:100;
+}
+
+.box{
+    width: 90%;
+    height: 300px;
+    background:#2b3252;
+    box-shadow: 10px 10px 5px grey;
+    padding:3px;
+    
+    
+    
+}
+.emojiskin {
+  display: block;
+  margin-top:12px;
+  position:absolute;
+  margin-left:90px;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+.emojieye{
+    position:absolute;
+    width:200px;
+    margin-left:90px;
+}
+.emojimouth{
+    position:absolute;
+    margin-top:20px;
+    margin-left:90px;
+    width:200px;
+}
+.emoji{
+    margin-left:125px;
+    margin-top:40px;
+}

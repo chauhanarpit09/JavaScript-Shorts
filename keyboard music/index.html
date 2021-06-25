@@ -1,0 +1,104 @@
+
+<html>
+<head>
+<style>
+.container{
+    position:absolute;
+    left:15%;
+    top:30%;
+    transform:translate(40%;10%);
+    
+
+}
+.row{
+    margin:20px;
+}
+.row button{
+    padding:20px;
+    margin:5px;
+    border:solid;
+    border-width:5px;
+    border-color:white;
+    background-color:black
+}
+.row span{
+    font-size:30px;
+    color:white;
+}
+.img
+{
+    width:100%;
+    height:100vh; 
+}
+
+
+</style>
+
+</head>
+<body style="margin:0px;background-color:#000;">
+<div>
+
+    <img src = "1.jpg" class="img">
+    <div class="container">
+        <h1 style="color:white">Sound play using keyboard button</h1><br>
+        <span class="row">
+            <button id="a"><span>A</spann></button>
+        </span>
+        <span class="row">
+            <button  id="s"><span>S</spann></button>
+        </span>
+        <span class="row">
+            <button  id="d"><span>D</spann></button>
+        </span>
+        <span class="row">
+            <button  id="f"><span>F</spann></button>
+        </span>
+        <span class="row">
+            <button  id="g"><span>G</spann></button>
+        </span>
+        <span class="row">
+            <button  id="h"><span>H</spann></button>
+        </span>
+        <span class="row">
+            <button  id="j" ><span>J</spann></button>
+        </span>
+        <span class="row">
+            <button  id="k"><span>K</spann></button>
+        </span>
+        <sapn class="row">
+            <button  id="l"><span>L</spann></button>
+        </span>
+    </div>
+
+<audio id = "A">
+    <source src="audio\boom.wav" type="audio/mpeg">
+</audio>
+<audio id = "S">
+    <source src="audio\clap.wav" type="audio/mpeg">
+</audio>
+<audio id = "D">
+    <source src="audio\hihat.wav" type="audio/mpeg">
+</audio>
+<audio id = "F">
+    <source src="audio\kick.wav" type="audio/mpeg">
+</audio>
+<audio id = "G">
+    <source src="audio\openhat.wav" type="audio/mpeg">
+</audio>
+<audio id = "H">
+    <source src="audio\ride.wav" type="audio/mpeg">
+</audio>
+<audio id = "J">
+    <source src="audio\snare.wav" type="audio/mpeg">
+</audio>
+<audio id = "K">
+    <source src="audio\tink.wav" type="audio/mpeg">
+</audio>
+<audio id = "L">
+    <source src="audio\tom.wav" type="audio/mpeg">
+</audio>
+
+</div>
+<script src = "index.js"></script>
+</body>
+</html>

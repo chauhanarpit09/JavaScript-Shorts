@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<style>
+.row{
+
+   margin-left:30%;
+
+}
+.box{
+    background-color:white;
+    border:none;
+    border-radius:30px;
+    width:360px;
+    padding:10px;
+}
+.btn{
+    border:none;
+    margin:5px;
+    width:70px;
+    height:40px;
+    background-color:#b3b3b3;
+    padding:5px;
+    font-size:20px;
+    color:white;
+    
+}
+.z{
+   width:240px
+}
+.a{
+    background-color:black;
+
+}
+.a:hover{
+    color:white;
+}
+.e{
+    width:70px;
+    background-color: #ff751a;
+    
+}
+.input{
+    border:none;
+    border-radius:14px;
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size:30px;
+    width:335px;
+    height:80px;
+    background-color:#40bf80;
+    text-align:right;
+    
+}
+body{
+    background : url('back.jpg');
+    height:100vh;
+    
+}
+#heading{
+        text-align:center;
+        padding:3px;
+        color:white
+    }
+.head{
+    backgroud:black;
+    margin-bottom:100px;
+    
+}
+</style>
+<script src = "index.js"></script>
+</head>
+<body style="margin:0px;">
+    <div class="head" >
+               <h3 id = "heading" >Calculator</h3>
+     </div>
+    <DIV class="container-fluid">
+    <DIV class="row" >
+        <DIV class="col-4 col-lg-4 col-sm-12 col-xs-4">
+            <DIV class="box">
+                <input class="input" id="i"  value="0">
+                <DIV>
+                    <BUTTON id="c" class="btn a"  onclick="clearo()" ><h3>C</h3></BUTTON>
+                    <BUTTON id="x" class="btn a" onclick="clearone()" ><h3>X</h3></BUTTON>
+                    <BUTTON id="/" class="btn a" value="/" onclick="append(this.value)" ><h3>/</h3></BUTTON>
+                    <BUTTON id="*" class="btn a" value="*" onclick="append(this.value)"><h3>*</h3></BUTTON>
+                </DIV>
+                <DIV>
+                    <BUTTON id="7" class="btn" value="7" onclick="append(this.value)"><h3>7</h3></BUTTON>
+                    <BUTTON id="8" class="btn" value="8" onclick="append(this.value)"><h3>8</h3></BUTTON>
+                    <BUTTON id="9" class="btn" value="9" onclick="append(this.value)"><h3>9</h3></BUTTON>
+                    <BUTTON id="-" class="btn" value="-" onclick="append(this.value)"><h3>-</h3></BUTTON>
+                </DIV>
+                <DIV>
+                    <BUTTON id="6" class="btn" value="6" onclick="append(this.value)"><h3>6</h3></BUTTON>
+                    <BUTTON id="5" class="btn" value="5" onclick="append(this.value)"><h3>5</h3></BUTTON>
+                    <BUTTON id="4" class="btn" value="4" onclick="append(this.value)"><h3>4</h3></BUTTON>
+                    <BUTTON id="+" class="btn" value="+" onclick="append(this.value)"><h3>+</h3></BUTTON>
+                </DIV>
+                <DIV>
+                    <BUTTON id="3" class="btn" value="3" onclick="append(this.value)"><h3>3</h3></BUTTON>
+                    <BUTTON id="2" class="btn" value="2" onclick="append(this.value)"><h3>2</h3></BUTTON>
+                    <BUTTON id="1" class="btn" value="1" onclick="append(this.value)"><h3>1</h3></BUTTON>
+                    <BUTTON id="=" class="btn e" value="=" onclick="solve()"><h3>=</h3></BUTTON>    
+                </DIV>
+               
+                <DIV>
+                    <BUTTON id="0" class="btn z" value="0" onclick="append(this.value)"><h3>0</h3></BUTTON>
+                    <BUTTON id="." class="btn" value="." onclick="append(this.value)"><h3>.</h3></BUTTON>
+                </DIV>
+            </DIV>
+        </DIV> 
+
+        <DIV class="col-2 col-lg-2 col-sm-12 col-xs-2">
+        </DIV>
+
+        <DIV class="col-6 col-lg-6 col-sm-12 col-xs-6">
+            <h1 id="hist"></h1>
+        </DIV>
+    </DIV>
+    </DIV>
+<script src = "index.js"></script>
+</body>
+</html>
